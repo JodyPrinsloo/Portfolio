@@ -86,7 +86,8 @@
 }
 
 .skillImg{
-    width: 50px;
+    width: 40px;
+    height: 40px;
 }
 
 .SkillName{
@@ -115,7 +116,8 @@
 }
 
 .toolImg{
-    width: 50px;
+    width: 40px;
+    height: 40px;
 }
 
 .ToolName{

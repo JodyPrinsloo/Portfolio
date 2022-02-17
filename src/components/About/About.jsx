@@ -1,6 +1,20 @@
 import "./About.css"
 import { useContext } from "react";
 import { ThemeContext } from "../../context";
+import Comm from "../../img/Communication.png";
+import ORG from "../../img/Organization.png";
+import Team from "../../img/Team.png";
+import Adaptive from "../../img/Adaptive.png";
+import Detail from "../../img/Detail.png";
+import Punctual from "../../img/Punctual.png";
+import Pressure from "../../img/Pressure.png";
+import PS from "../../img/photoshop.png";
+import AI from "../../img/illustrator.png";
+import AE from "../../img/aftereffects.png";
+import ID from "../../img/indesign.png";
+import Figma from "../../img/figma.png";
+import Code from "../../img/coding.png";
+import Backend from "../../img/backend.png";
 
 const About = () => {
 
@@ -30,31 +44,31 @@ const About = () => {
                              <h2 className="SkillsHeader">Soft Skills</h2>
                          </div>
                          <div className="BulletSkill">
-                            <img src="https://placekitten.com/50/50" alt="" className="skillImg" />
+                            <img src={Comm} alt="" className="skillImg" />
                             <p className="SkillName">Communication</p>
                          </div>
                          <div className="BulletSkill">
-                            <img src="https://placekitten.com/50/50" alt="" className="skillImg" />
+                            <img src={ORG} alt="" className="skillImg" />
                             <p className="SkillName">Organization</p>
                          </div>
                          <div className="BulletSkill">
-                            <img src="https://placekitten.com/50/50" alt="" className="skillImg" />
+                            <img src={Team} alt="" className="skillImg" />
                             <p className="SkillName">Team Oriented</p>
                          </div>
                          <div className="BulletSkill">
-                            <img src="https://placekitten.com/50/50" alt="" className="skillImg" />
+                            <img src={Adaptive} alt="" className="skillImg" />
                             <p className="SkillName">Adaptive</p>
                          </div>
                          <div className="BulletSkill">
-                            <img src="https://placekitten.com/50/50" alt="" className="skillImg" />
+                            <img src={Detail} alt="" className="skillImg" />
                             <p className="SkillName">Eye For Detail</p>
                          </div>
                          <div className="BulletSkill">
-                            <img src="https://placekitten.com/50/50" alt="" className="skillImg" />
+                            <img src={Punctual} alt="" className="skillImg" />
                             <p className="SkillName">Punctual</p>
                          </div>
                          <div className="BulletSkill">
-                            <img src="https://placekitten.com/50/50" alt="" className="skillImg" />
+                            <img src={Pressure} alt="" className="skillImg" />
                             <p className="SkillName">Works Well Under Pressure</p>
                          </div>
                      </div>
@@ -63,31 +77,31 @@ const About = () => {
                             <h2 className="SkillsHeader">Toolset</h2>
                          </div>
                          <div className="BulletTool">
-                             <img src="https://placekitten.com/50/50" alt="" className="toolImg" />
+                             <img src={PS} alt="" className="toolImg" />
                              <p className="ToolName">Adobe Photoshop</p>
                          </div>
                          <div className="BulletTool">
-                             <img src="https://placekitten.com/50/50" alt="" className="toolImg" />
+                             <img src={AI} alt="" className="toolImg" />
                              <p className="ToolName">Adobe Illustrator</p>
                          </div>
                          <div className="BulletTool">
-                             <img src="https://placekitten.com/50/50" alt="" className="toolImg" />
+                             <img src={AE} alt="" className="toolImg" />
                              <p className="ToolName">Adobe After Effects</p>
                          </div>
                          <div className="BulletTool">
-                             <img src="https://placekitten.com/50/50" alt="" className="toolImg" />
+                             <img src={ID} alt="" className="toolImg" />
                              <p className="ToolName">Adobe InDesign</p>
                          </div>
                          <div className="BulletTool">
-                             <img src="https://placekitten.com/50/50" alt="" className="toolImg" />
+                             <img src={Figma} alt="" className="toolImg" />
                              <p className="ToolName">Figma</p>
                          </div>
                          <div className="BulletTool">
-                             <img src="https://placekitten.com/50/50" alt="" className="toolImg" />
+                             <img src={Code} alt="" className="toolImg" />
                              <p className="ToolName">HTML5, CSS, Javascript</p>
                          </div>
                          <div className="BulletTool">
-                             <img src="https://placekitten.com/50/50" alt="" className="toolImg" />
+                             <img src={Backend} alt="" className="toolImg" />
                              <p className="ToolName">MySQL, jQuery</p>
                          </div>
                      </div>
