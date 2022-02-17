@@ -17,13 +17,6 @@
     flex: 1;
 }
 
-.a-card.bg{
-    position: absolute;
-    top: 50px;
-    left: 50px;
-    background-color: #E5E8EB;
-}
-
 .a-card{
     width: 60%;
     height: 70vh;
@@ -64,6 +57,7 @@
     margin-top: 30px;
     display: flex;
     flex-direction: row;
+    position: relative;
 }
 
 .SkillsCont{
@@ -141,6 +135,7 @@
         flex-direction: column;
         text-align: center;
         margin-top: 50px;
+        height: 100%;
     }
 
     .a-left{
@@ -157,5 +152,23 @@
 
     .a-right{
         padding: 20px;
+    }
+
+    .skillsToolsCont {
+        margin-bottom: 30px;
+        width: 100%;
+    }
+
+    .toolImg, .skillImg{
+        width: 30px;
+        height: 30px;
+    }
+
+    .SkillName, .ToolName{
+        font-size: 14px;
+    }
+
+    .SkillsCont, .ToolsCont{
+        padding: 2px;
     }
 }
