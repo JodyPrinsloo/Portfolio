@@ -62,10 +62,10 @@ const Contact = () => {
                   comes along
               </p>
               <form ref={formRef} onSubmit={handleSubmit}>
-                  <input style={{backgroundColor: darkMode && "#313030"}} type="text" placeholder="Name" name="user_name"/>
-                  <input style={{backgroundColor: darkMode && "#313030"}} type="text" placeholder="Subject" name="user_subject"/>
-                  <input style={{backgroundColor: darkMode && "#313030"}} type="text" placeholder="Email" name="user_email"/>
-                  <textarea style={{backgroundColor: darkMode && "#313030"}} rows="5" placeholder="Message" name="message"></textarea>
+                  <input style={{backgroundColor: darkMode && "#313030", color: darkMode && "white"}} type="text" placeholder="Name" name="user_name"/>
+                  <input style={{backgroundColor: darkMode && "#313030", color: darkMode && "white"}} type="text" placeholder="Subject" name="user_subject"/>
+                  <input style={{backgroundColor: darkMode && "#313030", color: darkMode && "white"}} type="text" placeholder="Email" name="user_email"/>
+                  <textarea style={{backgroundColor: darkMode && "#313030", color: darkMode && "white"}} rows="5" placeholder="Message" name="message"></textarea>
                   <button style={{backgroundColor : darkMode ? "#00FFD1" : "#006654",
                                     color: darkMode ? "black" : "white" }}>Submit</button>
                   {done && "Thanks for reaching out! I'll be sure to respond as fast as I can!"}
