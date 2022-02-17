@@ -2,8 +2,8 @@
     width: 30%;
     height: 40vh;
     margin: 20px 10px;
-    border: 2px solid #231f20;
-    border-radius: 15px 15px 0px 0px;
+    /* border: 2px solid #231f20; */
+    border-radius: 10px 10px 0px 0px;
     overflow: hidden;
 }
 
@@ -19,15 +19,16 @@
 .p-circle-r{
     width: 10px;
     height: 10px;
-    background-color: red;
+    background-color: #FF605C;
     border-radius: 50%;
     margin: 3px;
+    margin-left: 3px;
 }
 
 .p-circle-y{
     width: 10px;
     height: 10px;
-    background-color: yellow;
+    background-color: #FFBD44;
     border-radius: 50%;
     margin: 3px;
 }
@@ -35,7 +36,7 @@
 .p-circle-g{
     width: 10px;
     height: 10px;
-    background-color: green;
+    background-color: #00CA4E;
     border-radius: 50%;
     margin: 3px;
 }
@@ -47,4 +48,15 @@
 
 .p:hover .p-img{
     transform: scale(120%);
+}
+
+@media screen and (max-width:480px) {
+    .p{
+        width: 40%;
+        height: 15vh;
+    }
+
+    .p-img{
+        object-fit: cover;
+    }
 }
