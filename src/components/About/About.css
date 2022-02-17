@@ -51,18 +51,77 @@
 
 .a-sub{
     margin: 20px 0px;
-    font-weight: 600;
+    font-weight: 00;
 }
 
 .a-title{
     font-weight: 300;
 }
 
-.a-award{
-    margin-top: 50px;
+.skillsToolsCont{
+    width: 80%;
+    height: 45vh;
+    margin-top: 30px;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    flex-direction: row;
+}
+
+.SkillsCont{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    text-align: center;
+}
+
+.SkillsTitleBar{
+    width: 100%;
+    height: 10%;
+}
+
+.BulletSkill{
+    display: flex;
+    height: 10%;
+    width: 100%;
+    padding-top: 10px;
+}
+
+.skillImg{
+    width: 50px;
+}
+
+.SkillName{
+    align-self: center;
+    padding-left: 10px;
+    font-weight: 300;
+}
+
+.ToolsCont{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    text-align: center;
+}
+
+.ToolsTitleBar{
+    width: 100%;
+    height: 10%;
+}
+
+.BulletTool{
+    display: flex;
+    height: 10%;
+    width: 100%;
+    padding-top: 10px;
+}
+
+.toolImg{
+    width: 50px;
+}
+
+.ToolName{
+    align-self: center;
+    padding-left: 10px;
+    font-weight: 300;
 }
 
 .a-award-texts{
