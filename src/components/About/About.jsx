@@ -26,18 +26,17 @@ const About = () => {
             <div className="a-left">
                 {/* <div className="a-card bg" style={{backgroundColor: darkMode ? "#313030" : "#DEE1E3"}}></div> */}
                 <div className="a-card">
-                    <img src="https://placekitten.com/500/500" alt="" className="a-img" />
+                    <img src="https://via.placeholder.com/500" alt="" className="a-img" />
                 </div>
             </div>
             <div className="a-right">
-                <h1 className="a-title">About Me</h1>
-                <p className="a-sub">This is a long established fact that a reader will be distracted
-                by the readable content
+                <h1 className="a-title" style={{color: darkMode ? "#00FFD1" : "#006654"}}>About Me</h1>
+                <p className="a-sub">Below is a list of some of my soft skills along with the Toolsets that i am knowledgeable in!
                 </p>
-                <p className="a-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                {/* <p className="a-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
                 Sequi dolore ex facere eum! Tempora odit similique unde iure mollitia voluptatum, 
                 ut dolore enim cum saepe numquam porro repellendus nihil aliquam.
-                </p>
+                </p> */}
                 <div className="skillsToolsCont">
                      <div className="SkillsCont">
                          <div className="SkillsTitleBar">

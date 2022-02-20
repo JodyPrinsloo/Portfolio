@@ -1,6 +1,6 @@
 import "./Contact.css";
 import Linkedin from "../../img/linkedin.png";
-import Email from "../../img/email.png";
+import Phone from "../../img/phone.png";
 import Dribbble from "../../img/dribbble.png";
 import { useRef, useState } from "react";
 import emailjs from 'emailjs-com'
@@ -40,26 +40,26 @@ const Contact = () => {
       <div className="c-bg" style={{backgroundColor: darkMode ? "#313030" : "#DEE1E3"}}></div>
       <div className="c-wrapper">
           <div className="c-left">
-              <h1 className="c-title">Let's discuss your project!</h1>
+              <h1 className="c-title" style={{color: darkMode ? "#00FFD1" : "#006654"}}>Let's discuss your project!</h1>
               <div className="c-info">
                   <div className="c-info-item">
                       <img  src={Linkedin} alt="LinkedIn Logo" className="c-icon" />
-                      Filler LinkedIn Lore Here
-                  </div>
-                  <div className="c-info-item">
-                      <img  src={Email} alt="LinkedIn Logo" className="c-icon" />
-                      Filler Email Lore Here
+                      <a href="https://www.linkedin.com/in/jodyprinsloo/" target="_blank">My LinkedIn Account!</a>
                   </div>
                   <div className="c-info-item">
                       <img  src={Dribbble} alt="LinkedIn Logo" className="c-icon" />
-                      Filler Dribbble Lore Here
+                      <a href="https://dribbble.com/JodyPrinsloo11" target="_blank">My Dribbble Account!</a>
+                  </div>
+                  <div className="c-info-item">
+                      <img  src={Phone} alt="LinkedIn Logo" className="c-icon" />
+                      <p>778-235-7633</p>
                   </div>
               </div>
           </div>
           <div className="c-right">
               <p className="c-desc">
-                  <b>What's your story?</b> Get in touch. Always freelancing if the right project
-                  comes along
+                  <b className="bolded">What's your story?</b> Get in touch. Always freelancing if the right project
+                  comes along!
               </p>
               <form ref={formRef} onSubmit={handleSubmit}>
                   <input style={{backgroundColor: darkMode && "#313030", color: darkMode && "white"}} type="text" placeholder="Name" name="user_name"/>

@@ -38,13 +38,13 @@
 }
 
 .a-title{
-    font-weight: 400;
-
+    font-weight: 500;
+    font-size: 40px;
 }
 
 .a-sub{
     margin: 20px 0px;
-    font-weight: 00;
+    font-weight: 400;
 }
 
 .a-title{
@@ -82,6 +82,7 @@
 .skillImg{
     width: 40px;
     height: 40px;
+    margin-right: 10px;
 }
 
 .SkillName{
@@ -112,6 +113,7 @@
 .toolImg{
     width: 40px;
     height: 40px;
+    margin-right: 10px;
 }
 
 .ToolName{
@@ -170,5 +172,9 @@
 
     .SkillsCont, .ToolsCont{
         padding: 2px;
+    }
+
+    .toolImg, .skillImg{
+        margin-right: 0;
     }
 }
