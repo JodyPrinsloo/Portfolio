@@ -2,6 +2,8 @@ import "./Contact.css";
 import Linkedin from "../../img/linkedin.png";
 import Phone from "../../img/phone.png";
 import Dribbble from "../../img/dribbble.png";
+import Resume from "../../img/resume.png";
+import ResumeFile from "../../img/Resume.pdf";
 import { useRef, useState } from "react";
 import emailjs from 'emailjs-com'
 import { useContext } from "react";
@@ -42,6 +44,10 @@ const Contact = () => {
           <div className="c-left">
               <h1 className="c-title" style={{color: darkMode ? "#00FFD1" : "#006654"}}>Let's discuss your project!</h1>
               <div className="c-info">
+                  <div className="c-info-item">
+                      <img  src={Resume} alt="LinkedIn Logo" className="c-icon" />
+                      <a href={ResumeFile} target="_blank">My Resume!</a>
+                  </div>
                   <div className="c-info-item">
                       <img  src={Linkedin} alt="LinkedIn Logo" className="c-icon" />
                       <a href="https://www.linkedin.com/in/jodyprinsloo/" target="_blank">My LinkedIn Account!</a>
