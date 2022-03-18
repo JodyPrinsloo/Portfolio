@@ -42,7 +42,7 @@ const Contact = () => {
       <div className="c-bg" style={{backgroundColor: darkMode ? "#313030" : "#DEE1E3"}}></div>
       <div className="c-wrapper">
           <div className="c-left">
-              <h1 className="c-title" style={{color: darkMode ? "#00FFD1" : "#006654"}}>Let's discuss your project!</h1>
+              <h1 className="c-title" style={{color: darkMode ? "#00FFD1" : "#006654"}}>Looking to hire me?</h1>
               <div className="c-info">
                   <div className="c-info-item">
                       <img  src={Resume} alt="LinkedIn Logo" className="c-icon" />
