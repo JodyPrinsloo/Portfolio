@@ -6,20 +6,19 @@
     text-align: center;
 }
 
-.uiux{
-    display: flex;
-    flex-direction: row;
-    width: 80vw;
-    height: 100%;
-}
-
 .pl-texts{
     width: 40%;
 }
 
-.pl-title{
-    font-size: 50px;
+.pl-main-title{
+    font-size: 40px;
     font-weight: 600;
+}
+
+.pl-titles{
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 25px;
 }
 
 .pl-desc{
@@ -31,6 +30,16 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.br{
+    width: 100%;
+    height: 5px;
+    border-radius: 5px;
+    margin-bottom: 25px;
+    background: rgb(58,175,180);
+    background: linear-gradient(90deg, rgba(58,175,180,1) 0%, rgba(255,71,245,1) 50%, rgba(94,252,69,1) 100%);
 }
 
 @media screen and (max-width: 480px) {

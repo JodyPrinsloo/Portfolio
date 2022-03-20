@@ -14,6 +14,16 @@ import DrStrange from "../../img/Dr-Strange-Dribbble.png";
 import LeadTheWay from "../../img/Lead-The-Way-Dribbble.png";
 import Gihun from "../../img/Gi-Hun-Dribbble.png";
 
+//Other School and Freetime Projects
+import TypographyPoster from "../../img/Poster-Mockup.png";
+import BBLogo from "../../img/Buzzy-Bee-Logo.png";
+import BBBusinessCard from "../../img/Business-Card-Mockup.png";
+import CLLogo from "../../img/Craigslist-Logo.png";
+import Kaneki from "../../img/JodyxKaneki-Dribbble.png";
+import Minato from "../../img/JodyxMinato-Dribbble.png";
+import Microphone from "../../img/Realistic-Illustrator-Drawing-Dribbble.png";
+import SteadyLogo from "../../img/Steady-Logo.png";
+;
 const ProjectsList = () => {
 
   const theme = useContext(ThemeContext);
@@ -22,28 +32,38 @@ const ProjectsList = () => {
   return (
     <div className="pl">
         <div className="pl-texts">
-          <h1 className="pl-titles" style={{color: darkMode ? "#00FFD1" : "#006654"}}>My Projects</h1>
+          <h1 className="pl-main-title" style={{color: darkMode ? "#00FFD1" : "#006654"}}>My Projects</h1>
           <p className="pl-desc">These are a few projects I've completed in school and during my free time! If you want to find out more about each indiviual project, feel free to click the image or to shoot me an email down in the contact section!
           </p>
         </div>
-        <div className="pl-list">
-          {projects_img.map((item) => (
-          <Projects key={item.id} img={item.img} link={item.link}/>
-          ))}
-        </div>
         {/* UI UX Section */}
         <h1 className="pl-titles" style={{color: darkMode ? "#00FFD1" : "#006654"}}>UI/UX Work</h1>
-          <div className="uiux">
+        <div className="br" style={{color: darkMode ? "#00FFD1" : "#006654"}}></div>
+          <div className="pl-list">
               <Projects img={BBMockup} link="https://dribbble.com/shots/17443792-Mobile-Application-UI-UX-Design-Buzzy-Bee"/>
               <Projects img={ScoutMockup}/>
               <Projects img={CraigslistMockup} link="https://dribbble.com/shots/17443718-UI-UX-Craigslist-Redesign-Web-Mobile"/>
           </div>
         {/* Graphic Design Section */}
         <h1 className="pl-titles" style={{color: darkMode ? "#00FFD1" : "#006654"}}>Graphic Design Work</h1>
-          <div className="uiux">
+        <div className="br" style={{color: darkMode ? "#00FFD1" : "#006654"}}></div>
+          <div className="pl-list">
               <Projects img={DrStrange} link="https://dribbble.com/shots/17443737-Photo-Manipulation-Dr-Strange"/>
               <Projects img={LeadTheWay} link="https://dribbble.com/shots/17443745-Photo-Manipulation-Unknown-Territory"/>
               <Projects img={Gihun} link="https://dribbble.com/shots/17443731-Digital-Art-Squid-Game-Drawing"/>
+          </div>
+        {/* Other School and Freetime Projects */}
+        <h1 className="pl-titles" style={{color: darkMode ? "#00FFD1" : "#006654"}}>Other School and Freetime Projects</h1>
+        <div className="br" style={{color: darkMode ? "#00FFD1" : "#006654"}}></div>
+          <div className="pl-list">
+              <Projects img={TypographyPoster} link=""/>
+              <Projects img={BBLogo} link=""/>
+              <Projects img={BBBusinessCard} link=""/>
+              <Projects img={CLLogo} link=""/>
+              <Projects img={Kaneki} link=""/>
+              <Projects img={Minato} link=""/>
+              <Projects img={Microphone} link=""/>
+              <Projects img={SteadyLogo} link=""/>
           </div>
     </div>
   )
