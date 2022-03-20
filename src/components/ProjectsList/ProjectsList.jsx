@@ -57,13 +57,13 @@ const ProjectsList = () => {
         <div className="br" style={{color: darkMode ? "#00FFD1" : "#006654"}}></div>
           <div className="pl-list">
               <Projects img={TypographyPoster} link=""/>
-              <Projects img={BBLogo} link=""/>
+              <Projects img={Microphone} link=""/>
               <Projects img={BBBusinessCard} link=""/>
+              <Projects img={BBLogo} link=""/>
+              <Projects img={SteadyLogo} link=""/>
               <Projects img={CLLogo} link=""/>
               <Projects img={Kaneki} link=""/>
               <Projects img={Minato} link=""/>
-              <Projects img={Microphone} link=""/>
-              <Projects img={SteadyLogo} link=""/>
           </div>
     </div>
   )
