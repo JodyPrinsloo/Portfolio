@@ -6,6 +6,13 @@
     text-align: center;
 }
 
+.uiux{
+    display: flex;
+    flex-direction: row;
+    width: 80vw;
+    height: 100%;
+}
+
 .pl-texts{
     width: 40%;
 }
