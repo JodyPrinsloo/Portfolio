@@ -1,6 +1,8 @@
 import "./Projects.css"
 import { useContext } from "react";
 import { ThemeContext } from "../../context";
+import { Link } from "react-router-dom";
+import DrStrangePage from "../../DrStrange";
 
 const Projects = ({img, link, id}) => {
 

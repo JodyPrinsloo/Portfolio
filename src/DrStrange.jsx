@@ -5,29 +5,19 @@ import ProjectsList from "./components/ProjectsList/ProjectsList";
 import Contact from "./components/Contact/Contact.jsx";
 import { useContext, useEffect } from "react";
 import { ThemeContext } from "./context";
-import { BrowserRouter, Route } from "react-router-dom";
 
-//Pages
-import DrStrangePage from "./DrStrange";
-
-const App = () => {
+const DrStrangePage = () => {
 
   const theme = useContext(ThemeContext);
   const darkMode = theme.state.darkMode;
 
   useEffect(()=>{
-    document.title = "Jody Prinsloo's Portfolio"
+    document.title = "Dr Strange - Unity"
   }, [])
   
-  return <BrowserRouter>
-      <div style={{backgroundColor: darkMode ? "#202020" : "#ECF0F3", color: darkMode && "white"}}>
+  return <div style={{backgroundColor: darkMode ? "#202020" : "#ECF0F3", color: darkMode && "white"}}>
         <Toggle />
-        <Intro/>
-        <About/>
-        <ProjectsList />
-        <Contact />
-      </div>;
-    </BrowserRouter>
+    </div>;
 };
 
-export default App;
+export default DrStrangePage;

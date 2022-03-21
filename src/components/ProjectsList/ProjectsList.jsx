@@ -3,7 +3,7 @@ import Projects from "../Projects/Projects";
 import {projects_img} from "../../data";
 import { useContext } from "react";
 import { ThemeContext } from "../../context";
-
+import DrStrangePage from "../../DrStrange.jsx";
 //UI Image Imports
 import BBMockup from "../../img/Buzzy-Bee-Mockups.png";
 import ScoutMockup from "../../img/Scout.png";
