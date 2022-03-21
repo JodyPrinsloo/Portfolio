@@ -12,7 +12,7 @@ const App = () => {
   const darkMode = theme.state.darkMode;
 
   useEffect(()=>{
-    document.title = "Jody's Portfolio"
+    document.title = "Jody Prinsloo's Portfolio"
   }, [])
   
   return <div style={{backgroundColor: darkMode ? "#202020" : "#ECF0F3", 

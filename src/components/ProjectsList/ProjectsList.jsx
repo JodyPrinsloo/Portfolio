@@ -23,7 +23,8 @@ import Kaneki from "../../img/JodyxKaneki-Dribbble.png";
 import Minato from "../../img/JodyxMinato-Dribbble.png";
 import Microphone from "../../img/Realistic-Illustrator-Drawing-Dribbble.png";
 import SteadyLogo from "../../img/Steady-Logo.png";
-;
+
+
 const ProjectsList = () => {
 
   const theme = useContext(ThemeContext);
