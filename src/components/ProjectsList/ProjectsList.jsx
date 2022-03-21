@@ -41,7 +41,7 @@ const ProjectsList = () => {
         <div className="br" style={{color: darkMode ? "#00FFD1" : "#006654"}}></div>
           <div className="pl-list">
               <Projects img={BBMockup} link="https://dribbble.com/shots/17443792-Mobile-Application-UI-UX-Design-Buzzy-Bee"/>
-              <Projects img={ScoutMockup}/>
+              <Projects img={ScoutMockup} link=""/>
               <Projects img={CraigslistMockup} link="https://dribbble.com/shots/17443718-UI-UX-Craigslist-Redesign-Web-Mobile"/>
           </div>
         {/* Graphic Design Section */}
@@ -56,14 +56,14 @@ const ProjectsList = () => {
         <h1 className="pl-titles" style={{color: darkMode ? "#00FFD1" : "#006654"}}>Other School and Freetime Projects</h1>
         <div className="br" style={{color: darkMode ? "#00FFD1" : "#006654"}}></div>
           <div className="pl-list">
-              <Projects img={TypographyPoster} link=""/>
-              <Projects img={Microphone} link=""/>
-              <Projects img={BBBusinessCard} link=""/>
-              <Projects img={BBLogo} link=""/>
-              <Projects img={SteadyLogo} link=""/>
-              <Projects img={CLLogo} link=""/>
-              <Projects img={Kaneki} link=""/>
-              <Projects img={Minato} link=""/>
+              <Projects img={TypographyPoster} link="https://dribbble.com/shots/17443761-Typography-Poster-Layout-Assignment"/>
+              <Projects img={Microphone} link="https://dribbble.com/shots/17443749-Illustrator-Vector-Drawing-HyperX-Quadcast"/>
+              <Projects img={BBBusinessCard} link="https://dribbble.com/shots/17443778-Business-Cards-Buzzy-Bee"/>
+              <Projects img={BBLogo} link="https://dribbble.com/shots/17443702-Logo-Buzzy-Bee"/>
+              <Projects img={SteadyLogo} link="https://dribbble.com/shots/17443694-Logo-Steady"/>
+              <Projects img={CLLogo} link="https://dribbble.com/shots/17443705-Logo-Craigslist-Redesign"/>
+              <Projects img={Kaneki} link="https://dribbble.com/shots/17443724-Anime-Drawing-Myself-x-Kaneki"/>
+              <Projects img={Minato} link="https://dribbble.com/shots/17443721-Anime-Drawing-Myself-x-Minato"/>
           </div>
     </div>
   )
