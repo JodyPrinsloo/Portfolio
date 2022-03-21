@@ -16,7 +16,7 @@ const Intro = () => {
                 <h1 className="i-name">Jody Prinsloo</h1>
                 <div className="i-title">
                     <div className="i-title-wrapper">
-                        <div className="i-title-item" style={{color: darkMode ? "#00FFD1" : "#006654"}}>UI/UX Designer | Graphic Designer | Photographer</div>
+                        <div className="i-title-item" style={{color: darkMode ? "#00FFD1" : "#006654"}}>UI/UX Designer | Graphic Designer | Video Editor</div>
                     </div>
                 </div>
                 <p className="i-desc">
