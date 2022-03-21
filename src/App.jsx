@@ -26,7 +26,7 @@ const App = () => {
         <About/>
         <ProjectsList />
         <Contact />
-      </div>;
+      </div>
     </BrowserRouter>
 };
 
