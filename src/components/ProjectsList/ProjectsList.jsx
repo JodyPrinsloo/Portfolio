@@ -49,22 +49,22 @@ const ProjectsList = () => {
         <h1 className="pl-titles" style={{color: darkMode ? "#00FFD1" : "#006654"}}>Graphic Design Work</h1>
         <div className="br" style={{color: darkMode ? "#00FFD1" : "#006654"}}></div>
           <div className="pl-list">
-              <Projects img={DrStrange} link="https://dribbble.com/shots/17443737-Photo-Manipulation-Dr-Strange"/>
-              <Projects img={LeadTheWay} link="https://dribbble.com/shots/17443745-Photo-Manipulation-Unknown-Territory"/>
-              <Projects img={Gihun} link="https://dribbble.com/shots/17443731-Digital-Art-Squid-Game-Drawing"/>
+              <Projects img={DrStrange} link="https://dribbble.com/shots/17443737-Photo-Manipulation-Dr-Strange" title="Dr. Strange - Photoshop Assignment"/>
+              <Projects img={LeadTheWay} link="https://dribbble.com/shots/17443745-Photo-Manipulation-Unknown-Territory" title="Lead The Way - Freetime Photoshop Project"/>
+              <Projects img={Gihun} link="https://dribbble.com/shots/17443731-Digital-Art-Squid-Game-Drawing" title="Gi Hun - Photoshop Assignment"/>
           </div>
         {/* Other School and Freetime Projects */}
         <h1 className="pl-titles" style={{color: darkMode ? "#00FFD1" : "#006654"}}>Other School and Freetime Projects</h1>
         <div className="br" style={{color: darkMode ? "#00FFD1" : "#006654"}}></div>
           <div className="pl-list">
-              <Projects img={TypographyPoster} link="https://dribbble.com/shots/17443761-Typography-Poster-Layout-Assignment"/>
-              <Projects img={Microphone} link="https://dribbble.com/shots/17443749-Illustrator-Vector-Drawing-HyperX-Quadcast"/>
-              <Projects img={BBBusinessCard} link="https://dribbble.com/shots/17443778-Business-Cards-Buzzy-Bee"/>
-              <Projects img={BBLogo} link="https://dribbble.com/shots/17443702-Logo-Buzzy-Bee"/>
-              <Projects img={SteadyLogo} link="https://dribbble.com/shots/17443694-Logo-Steady"/>
-              <Projects img={CLLogo} link="https://dribbble.com/shots/17443705-Logo-Craigslist-Redesign"/>
-              <Projects img={Kaneki} link="https://dribbble.com/shots/17443724-Anime-Drawing-Myself-x-Kaneki"/>
-              <Projects img={Minato} link="https://dribbble.com/shots/17443721-Anime-Drawing-Myself-x-Minato"/>
+              <Projects img={TypographyPoster} link="https://dribbble.com/shots/17443761-Typography-Poster-Layout-Assignment" title="The Proms - Typography Assignment"/>
+              <Projects img={Microphone} link="https://dribbble.com/shots/17443749-Illustrator-Vector-Drawing-HyperX-Quadcast" title="HyperX Quadcast - Illustrator Assignment"/>
+              <Projects img={BBBusinessCard} link="https://dribbble.com/shots/17443778-Business-Cards-Buzzy-Bee" title="Buzzy Bee - Business Cards"/>
+              <Projects img={BBLogo} link="https://dribbble.com/shots/17443702-Logo-Buzzy-Bee" title="Buzzy Bee - Logo"/>
+              <Projects img={SteadyLogo} link="https://dribbble.com/shots/17443694-Logo-Steady" title="Steady - Logo"/>
+              <Projects img={CLLogo} link="https://dribbble.com/shots/17443705-Logo-Craigslist-Redesign" title="Craigslist - Logo"/>
+              <Projects img={Kaneki} link="https://dribbble.com/shots/17443724-Anime-Drawing-Myself-x-Kaneki" title="Anime Freetime Drawing - Kaneki"/>
+              <Projects img={Minato} link="https://dribbble.com/shots/17443721-Anime-Drawing-Myself-x-Minato" title="Anime Freetime Drawing - Minato"/>
           </div>
     </div>
   )
