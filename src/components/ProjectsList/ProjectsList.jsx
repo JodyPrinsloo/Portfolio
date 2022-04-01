@@ -41,7 +41,7 @@ const ProjectsList = () => {
         <h1 className="pl-titles" style={{color: darkMode ? "#00FFD1" : "#006654"}}>UI/UX Work</h1>
         <div className="br" style={{color: darkMode ? "#00FFD1" : "#006654"}}></div>
           <div className="pl-list">
-              <Projects img={BBMockup} link="https://dribbble.com/shots/17443792-Mobile-Application-UI-UX-Design-Buzzy-Bee"/>
+              <Projects img={BBMockup} link="https://dribbble.com/shots/17443792-Mobile-Application-UI-UX-Design-Buzzy-Bee" title="Buzzy Bee"/>
               <Projects img={ScoutMockup} link=""/>
               <Projects img={CraigslistMockup} link="https://dribbble.com/shots/17443718-UI-UX-Craigslist-Redesign-Web-Mobile"/>
           </div>
