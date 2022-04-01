@@ -20,9 +20,13 @@
 .a-card{
     width: 60%;
     height: 70vh;
-    border-radius: 25px;
+    /* border-radius: 25px; */
     position: relative;
     overflow: hidden;
+}
+
+.logo-title{
+    font-weight: 500;
 }
 
 .a-img{

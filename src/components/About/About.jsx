@@ -1,6 +1,8 @@
 import "./About.css"
 import { useContext } from "react";
 import { ThemeContext } from "../../context";
+
+//Icon Imports
 import Comm from "../../img/Communication.png";
 import ORG from "../../img/Organization.png";
 import Team from "../../img/Team.png";
@@ -16,6 +18,9 @@ import Figma from "../../img/figma.png";
 import Code from "../../img/coding.png";
 import Backend from "../../img/backend.png";
 
+//Img Imports
+import MyLogo from "../../img/JPLogo.png";
+
 const About = () => {
 
   const theme = useContext(ThemeContext);
@@ -26,7 +31,8 @@ const About = () => {
             <div className="a-left">
                 {/* <div className="a-card bg" style={{backgroundColor: darkMode ? "#313030" : "#DEE1E3"}}></div> */}
                 <div className="a-card">
-                    <img src="https://via.placeholder.com/500" alt="" className="a-img" />
+                    <h1 className="logo-title" style={{color: darkMode ? "#00FFD1" : "#006654"}}>My Logo</h1>
+                    <img src={MyLogo} alt="An Image of My Logo" className="a-img" />
                 </div>
             </div>
             <div className="a-right">
