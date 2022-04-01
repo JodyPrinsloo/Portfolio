@@ -23,8 +23,8 @@ const App = () => {
       <div style={{backgroundColor: darkMode ? "#202020" : "#ECF0F3", color: darkMode && "white"}}>
         <Toggle />
         <Intro/>
-        <About/>
         <ProjectsList />
+        <About/>
         <Contact />
       </div>
     </BrowserRouter>
